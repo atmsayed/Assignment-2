@@ -1,9 +1,11 @@
 /* poppins font */
 body{
     font-family: 'Poppins', sans-serif;
-    margin-left: 120px;
     margin-top: 50px;
     background-color: #FFFFFF;
+}
+header{
+    margin-left: 120px;
 }
 .title{
     font-size: 24px;
@@ -15,16 +17,16 @@ body{
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 133px;
 }
-.heading-title{
+.heading-details{
     width: 582px;
     height: 270px;
 }
-.heading-title>h2{
+.heading-details>h2{
     font-size: 52px;
     font-weight: 700;
     margin-bottom: 16px;
 }
-.heading-title>p{
+.heading-details>p{
     margin-bottom: 20px;
 }
 .prebook-button{
@@ -44,6 +46,7 @@ body{
 }
 main{
     margin-top: 20px;
+    margin-left: 120px;
 }
 .picture{
     width: 440px;
@@ -127,4 +130,71 @@ main{
     height: 14px;
     padding-left: 8px;
     margin-top: 6px;
+}
+.container2{
+    width: 1110px;
+    height: 270px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 0px;
+}
+.featured-pic{
+    width: 404px;
+    height: 270px;
+}
+.featured-details>h2{
+    font-weight: 700;
+    font-size: 38px;
+    color: #0A0826;
+}
+.featured-details>p{
+    font-weight: 700;
+    font-size: 16px;
+    color: #6C6C6C;
+    margin-top: -12px;
+    margin-bottom: 20px;
+}
+.featured-button{
+    text-decoration: none;
+    width: 155px;
+    height: 44px;
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    padding: 10px 24px;
+}
+footer{
+    width: 1440px;
+    height: 239px;
+    background-color: #0A0826;
+}
+.footer-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-title{
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-top: 50px;
+    margin-bottom: 3px;
+}
+.copyright{
+    margin-top: 0px;
+    margin-bottom: 3px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #D9DBE1;
+}
+.link{
+    margin-top: 17px;
+    display: grid;
+    grid-template-columns: repeat(4,53px);
+    justify-content: center;
+}
+.link img{
+    width: 32px;
+    height: 32px;
 }
