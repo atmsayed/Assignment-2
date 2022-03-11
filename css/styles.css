@@ -48,9 +48,13 @@ main{
     margin-top: 20px;
     margin-left: 120px;
 }
-.picture{
+.picture img{
     width: 440px;
     height: 414px;
+    transition: transform 1s;
+}
+.picture img:hover{
+    transform: scale(1.5,1.5);
 }
 .container{
     width: 1047px;
@@ -142,7 +146,7 @@ main{
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 0px;
 }
-.featured-pic{
+.featured-pic img{
     width: 404px;
     height: 270px;
 }
@@ -206,7 +210,7 @@ footer{
 
   /* mobile devices */
   @media only screen and (max-width:688px) {
-    .heading-details,.container,.container2,.picture,.item-pic,.featured-pic,footer{
+    .heading-details,.container,.container2,.picture,.item-pic img,.featured-pic img,footer{
         width: 100%;
         height: 100%;
     }
@@ -231,7 +235,7 @@ footer{
 /* tablet devices */
 
 @media only screen and (min-width:689px) and (max-width:991px){
-    .heading-details,.container,.container2,.picture,.item-pic,.featured-pic,footer{
+    .heading-details,.container,.container2,.picture,.item-pic img,.featured-pic img,footer{
         width: 100%;
         height: 100%;
     }
